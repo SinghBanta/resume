@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<body>
+    <!--in this code when we add main section footer and adder only to tell our browser only.-->
+    <header><!--just tell browser it is header part -->
+        <table>
+            <tr>
+                <td><img style="float: left;" width="200" src="IMG_20220523_152607_331.jpg" alt="Banta Singh"></td>
+                <td>
+                    <h1>Banta Singh</h1>
+                    <p><i>Pursuing B.tech from IKGPTU.</i></p>
+                    <p>I ❤️ Web Development and passionate about Cricket🏏</p>
+                    <!--<a href="#Contact">
+                        <p> Connect With Me</p>-->
+                    <nav>
+                        <ul>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Projects">Projects</a></li>
+                            <li><a href="#Contact">Connect with Me</a></li>
+                        </ul>
+
+
+                    </nav>
+
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <hr>
+
+    </header>
+
+
+
+    <!--Header ends-->
+    <main>
+        <section id="Education">
+            <h2>Education</h2>
+            <table border=""> <!--border is deprecated soon so dont use it.-->
+                <tr>
+                    <th>Course</th>
+                    <th>University</th>
+                    <th>Year</th>
+                </tr>
+                <tr><!--We use here tr*2>td*3-->
+                    <td>B.tech CSE</td>
+                    <td>IKG PTU</td>
+                    <td>Pre-Final Year(2023)</td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup>Grade</td>
+                    <td>Bhagat Public School,Santnagar</td>
+                    <td>2020</td>
+                </tr>
+
+
+            </table>
+        </section>
+        
+
+
+        <section id="Skills">
+            <h2> Skills</h2>
+            <ul>
+                <li>Python and Java Programming</li>
+                <li>Tkinter,PyQT</li>
+                <li>Frontend Developer,Django Developer </li>
+            </ul>
+        </section>
+        
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3><a target="_blank"href="https://github.com/SinghBanta/Streamlit_portfolio.git"><u>Portfolio Website Using Streamlit Library</u></a></h3>
+                    <p>A faster way to build and share data apps.<a target="_blank"
+                             href="https://streamlit.io/"> <u>Streamlit</u></a> turns data scripts into shareable web apps
+                        in
+                        minutes.All in pure Python. No frontend experience required.</p>
+                </li>
+                <li>
+                    <h3>Expense Tracker , Newspaper web application.</h3>
+                    <p>I build Expense tracker using pure Python and Newspaper website using
+                        HTML,CSS,JavaScript.</p>
+                </li>
+            </ul>
+            <hr>
+        </section>
+        <!--here we use target attribute open website in new tab otherwise without target it     open within same page-->
+    </main>
+
+    <footer id="Contact">
+        <!--Main section end here-->
+
+        <h2 id="Contact">Connect With Me</h2>
+        <!--Now here id contact doesnot matter because we give id to section to make nav bar-->
+        <p>
+        <h3> Linkdin:<a target="_blank" href=https://www.linkedin.com/in/banta-singh-04366424b>My Linkdin Profile.</a></h3>
+        </p>
+
+        <p>
+        <h3>Email:<a target="_blank"href="mailto:singhbanta84@gmail.com">singhbanta84@gmail.com</a></h3>
+        </p>
+
+        <p>
+        <h3>Contact Number : <a target="_blank"href="tel:+91 9053385477"> 9053385477</a></h3>
+        </p>
+
+        <a href="aboutus.html">
+            <p>
+                <h3>About Us
+            </p>
+            </h3>
+        </a>
+    </footer> <!--by using about us html file when we click on link we will go to new page but within same page-->
+</body>
+
+</html>
